@@ -21,7 +21,7 @@ if sys.hexversion < 0x030700F0:
 
 class Node(Element, Processor):
     '''
-    Node is a main Pyno element, in fact it is a function with in/outputs
+    Node is a main Pyno element, in fact it is a function with in-/out-puts
     '''
 
     def __init__(self, window, x, y, batch, color=(200, 200, 200), code="",
