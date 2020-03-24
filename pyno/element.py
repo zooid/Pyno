@@ -230,7 +230,7 @@ class Element():
             self.in_labels.append(pyglet.text.Label(input, x=0, y=0,
                                                     font_name=font,
                                                     bold=True,
-                                                    color=(255,255,255,200),
+                                                    color=(255, 255, 255, 200),
                                                     font_size=12))
         self.out_labels = []
         gr['outputs'] = dict()
@@ -239,7 +239,7 @@ class Element():
             self.out_labels.append(pyglet.text.Label(output, x=0, y=0,
                                                      font_name=font,
                                                      bold=True,
-                                                     color=(255,255,255,200),
+                                                     color=(255, 255, 255, 200),
                                                      font_size=12,
                                                      anchor_x='right'))
 
